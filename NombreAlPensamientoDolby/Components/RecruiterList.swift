@@ -35,7 +35,7 @@ struct RecruiterList: View {
                  .fontWeight(.light)
                  
                  Button(action: {
-                     RunTwitterScript() //This action will activate the candidates' Twitter account to follow the recruiter as well as direct message them with an introduction
+                     twitterViewLoad() //This action will activate the candidates' Twitter account to follow the recruiter as well as direct message them with an introduction
 
                      showResult.toggle()
                  }){
